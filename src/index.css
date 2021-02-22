@@ -1,0 +1,49 @@
+:root {
+  --black: black;
+  --white: white;
+  --Bright-Blue: hsl(220, 98%, 61%);
+  --Check-Background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --Very-Light-Grayish-Blue: hsl(236, 33%, 92%);
+  --Light-Grayish-Blue: hsl(233, 11%, 84%);
+  --Dark-Grayish-Blue: hsl(236, 9%, 61%);
+  --Very-Dark-Grayish-Blue: hsl(235, 19%, 35%);
+}
+body {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--Very-Light-Gray);
+}
+
+.wrapper {
+  padding: 0 1.5em;
+}
+
+@media (min-width: 500px) {
+  .wrapper {
+    padding: 0 4em;
+  }
+}
+@media (min-width: 768px) {
+  .wrapper {
+    padding: 0 10em;
+  }
+}
+@media (min-width: 900px) {
+  .wrapper {
+    padding: 0 13em;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    padding: 0 15em;
+  }
+}
+@media (min-width: 1440px) {
+  .wrapper {
+    padding: 0 27em;
+  }
+}

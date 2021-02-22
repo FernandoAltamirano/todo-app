@@ -1,0 +1,17 @@
+.header {
+  padding: 0 2em;
+  background-image: url("../images/bg-desktop-dark.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 2em;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: 10px;
+}

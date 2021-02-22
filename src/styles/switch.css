@@ -1,0 +1,11 @@
+.switch {
+  height: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.switch img {
+  height: 20px;
+}

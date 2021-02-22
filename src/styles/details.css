@@ -1,0 +1,29 @@
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7em;
+  color: var(--Dark-Grayish-Blue);
+  border-radius: 5px;
+  padding: 0.7em 1.8em;
+  background-color: var(--white);
+}
+
+.details button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: 450ms all;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1em;
+  color: var(--Dark-Grayish-Blue);
+  background-color: transparent;
+}
+
+input:checked ~ p {
+  color: var(--Dark-Grayish-Blue);
+}
+
+.details button:hover {
+  color: black;
+}

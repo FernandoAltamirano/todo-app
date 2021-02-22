@@ -1,0 +1,28 @@
+.filter {
+  margin: 18px auto;
+  background-color: var(--white);
+  padding: 1em;
+  color: var(--Dark-Grayish-Blue);
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+}
+
+.filter input {
+  display: none;
+}
+
+#all:checked ~ #label-all {
+  color: hsl(220, 98%, 61%);
+}
+#active:checked ~ #label-active {
+  color: hsl(220, 98%, 61%);
+}
+#completed:checked ~ #label-completed {
+  color: hsl(220, 98%, 61%);
+}
+.filter label {
+  margin: 0 1em;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 0.7em 1em;
+  border-radius: 5px 5px 0 0;
+  background-color: var(--white);
+  font-size: 1.2em;
+  margin: -150px auto 18px auto;
+}
+.input input {
+  font-family: "Josefin Sans", sans-serif;
+  background-color: var(--white);
+  margin-left: 1em;
+  font-size: 0.7em;
+  outline: none;
+  width: 100%;
+  border: none;
+  color: var(--black);
+}
+
+.input:active {
+  background-color: transparent;
+}
+::-webkit-input-placeholder {
+  color: var(--Dark-Grayish-Blue);
+}
+.input-selector {
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: 1px solid var(--Dark-Grayish-Blue);
+  border-radius: 50%;
+  outline: none;
+}
+.input-selector:hover {
+  background-color: black;
+}

@@ -1,0 +1,66 @@
+.item {
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+  font-size: 0.7em;
+  border-bottom: 1px solid var(--Light-Grayish-Blue);
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  color: var(--black);
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item button img {
+  display: none;
+}
+.item label {
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 20px;
+  border: 1px solid transparent;
+  position: relative;
+  border: 1px solid gray;
+}
+
+.item label:hover {
+  background-color: rgb(193, 153, 253);
+}
+
+.item input {
+  display: none;
+}
+
+.item:hover > button > img {
+  display: block;
+}
+.item p:hover ~ button > img {
+  display: block;
+}
+.item .container-p {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+.item button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+}
+.content {
+  margin: 0;
+}
+
+.enable {
+  text-decoration: none;
+}
+.disable {
+  text-decoration: line-through;
+  color: gray;
+}
